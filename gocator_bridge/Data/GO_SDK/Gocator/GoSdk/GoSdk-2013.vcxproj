@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>GoSdk-2013</ProjectName>
+    <ProjectGuid>{72E7F753-5CA2-50C4-8220-CAE46835CD48}</ProjectGuid>
+    <RootNamespace>GoSdk-2013</RootNamespace>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\win32d\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GoSdk</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\bin\win64d\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GoSdk</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GoSdk</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\bin\win64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GoSdk</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;..\..\Gocator\GoSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;K_DEBUG;GO_EMIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kApi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win32d\GoSdk.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\lib\win32d;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win32d\GoSdk.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;..\..\Gocator\GoSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;K_DEBUG;GO_EMIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kApi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win64d\GoSdk.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\lib\win64d;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win64d\GoSdk.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;..\..\Gocator\GoSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;GO_EMIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kApi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win32\GoSdk.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win32\GoSdk.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;..\..\Gocator\GoSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;GO_EMIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kApi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win64\GoSdk.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\lib\win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win64\GoSdk.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GoSdk\GoSdkLib.c" />
+    <ClCompile Include="GoSdk\GoSdkDef.c" />
+    <ClCompile Include="GoSdk\GoLayout.c" />
+    <ClCompile Include="GoSdk\GoMaterial.c" />
+    <ClCompile Include="GoSdk\GoMultiplexBank.c" />
+    <ClCompile Include="GoSdk\GoPartDetection.c" />
+    <ClCompile Include="GoSdk\GoPartMatching.c" />
+    <ClCompile Include="GoSdk\GoPartModel.c" />
+    <ClCompile Include="GoSdk\GoProfileGeneration.c" />
+    <ClCompile Include="GoSdk\GoSensor.c" />
+    <ClCompile Include="GoSdk\GoSensorInfo.c" />
+    <ClCompile Include="GoSdk\GoSetup.c" />
+    <ClCompile Include="GoSdk\GoSurfaceGeneration.c" />
+    <ClCompile Include="GoSdk\GoSystem.c" />
+    <ClCompile Include="GoSdk\GoTransform.c" />
+    <ClCompile Include="GoSdk\GoUtils.c" />
+    <ClCompile Include="GoSdk\Internal\GoControl.c" />
+    <ClCompile Include="GoSdk\Internal\GoDiscovery.c" />
+    <ClCompile Include="GoSdk\Internal\GoReceiver.c" />
+    <ClCompile Include="GoSdk\Internal\GoSerializer.c" />
+    <ClCompile Include="GoSdk\Messages\GoDataSet.c" />
+    <ClCompile Include="GoSdk\Messages\GoDataTypes.c" />
+    <ClCompile Include="GoSdk\Messages\GoDiscoveryExtInfo.c" />
+    <ClCompile Include="GoSdk\Messages\GoHealth.c" />
+    <ClCompile Include="GoSdk\Outputs\GoOutput.c" />
+    <ClCompile Include="GoSdk\Outputs\GoAnalog.c" />
+    <ClCompile Include="GoSdk\Outputs\GoDigital.c" />
+    <ClCompile Include="GoSdk\Outputs\GoEthernet.c" />
+    <ClCompile Include="GoSdk\Outputs\GoSerial.c" />
+    <ClCompile Include="GoSdk\Tools\GoMeasurement.c" />
+    <ClCompile Include="GoSdk\Tools\GoMeasurements.c" />
+    <ClCompile Include="GoSdk\Tools\GoTool.c" />
+    <ClCompile Include="GoSdk\Tools\GoExtParam.c" />
+    <ClCompile Include="GoSdk\Tools\GoExtTool.c" />
+    <ClCompile Include="GoSdk\Tools\GoTools.c" />
+    <ClCompile Include="GoSdk\Tools\GoProfileTools.c" />
+    <ClCompile Include="GoSdk\Tools\GoProfileToolUtils.c" />
+    <ClCompile Include="GoSdk\Tools\GoRangeTools.c" />
+    <ClCompile Include="GoSdk\Tools\GoSurfaceTools.c" />
+    <ClCompile Include="GoSdk\Tools\GoSurfaceToolUtils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GoSdk\GoSdk.h" />
+    <ClInclude Include="GoSdk\GoSdkLib.h" />
+    <ClInclude Include="GoSdk\GoSdkLib.x.h" />
+    <ClInclude Include="GoSdk\GoSdkDef.h" />
+    <ClInclude Include="GoSdk\GoSdkDef.x.h" />
+    <ClInclude Include="GoSdk\GoLayout.h" />
+    <ClInclude Include="GoSdk\GoLayout.x.h" />
+    <ClInclude Include="GoSdk\GoMaterial.h" />
+    <ClInclude Include="GoSdk\GoMaterial.x.h" />
+    <ClInclude Include="GoSdk\GoMultiplexBank.h" />
+    <ClInclude Include="GoSdk\GoMultiplexBank.x.h" />
+    <ClInclude Include="GoSdk\GoPartDetection.h" />
+    <ClInclude Include="GoSdk\GoPartDetection.x.h" />
+    <ClInclude Include="GoSdk\GoPartMatching.h" />
+    <ClInclude Include="GoSdk\GoPartMatching.x.h" />
+    <ClInclude Include="GoSdk\GoPartModel.h" />
+    <ClInclude Include="GoSdk\GoPartModel.x.h" />
+    <ClInclude Include="GoSdk\GoProfileGeneration.h" />
+    <ClInclude Include="GoSdk\GoProfileGeneration.x.h" />
+    <ClInclude Include="GoSdk\GoSensor.h" />
+    <ClInclude Include="GoSdk\GoSensor.x.h" />
+    <ClInclude Include="GoSdk\GoSensorInfo.h" />
+    <ClInclude Include="GoSdk\GoSensorInfo.x.h" />
+    <ClInclude Include="GoSdk\GoSetup.h" />
+    <ClInclude Include="GoSdk\GoSetup.x.h" />
+    <ClInclude Include="GoSdk\GoSurfaceGeneration.h" />
+    <ClInclude Include="GoSdk\GoSurfaceGeneration.x.h" />
+    <ClInclude Include="GoSdk\GoSystem.h" />
+    <ClInclude Include="GoSdk\GoSystem.x.h" />
+    <ClInclude Include="GoSdk\GoTransform.h" />
+    <ClInclude Include="GoSdk\GoTransform.x.h" />
+    <ClInclude Include="GoSdk\GoUtils.h" />
+    <ClInclude Include="GoSdk\GoUtils.x.h" />
+    <ClInclude Include="GoSdk\Internal\GoControl.h" />
+    <ClInclude Include="GoSdk\Internal\GoControl.x.h" />
+    <ClInclude Include="GoSdk\Internal\GoDiscovery.h" />
+    <ClInclude Include="GoSdk\Internal\GoDiscovery.x.h" />
+    <ClInclude Include="GoSdk\Internal\GoReceiver.h" />
+    <ClInclude Include="GoSdk\Internal\GoReceiver.x.h" />
+    <ClInclude Include="GoSdk\Internal\GoSerializer.h" />
+    <ClInclude Include="GoSdk\Internal\GoSerializer.x.h" />
+    <ClInclude Include="GoSdk\Messages\GoDataSet.h" />
+    <ClInclude Include="GoSdk\Messages\GoDataSet.x.h" />
+    <ClInclude Include="GoSdk\Messages\GoDataTypes.h" />
+    <ClInclude Include="GoSdk\Messages\GoDataTypes.x.h" />
+    <ClInclude Include="GoSdk\Messages\GoDiscoveryExtInfo.h" />
+    <ClInclude Include="GoSdk\Messages\GoDiscoveryExtInfo.x.h" />
+    <ClInclude Include="GoSdk\Messages\GoHealth.h" />
+    <ClInclude Include="GoSdk\Messages\GoHealth.x.h" />
+    <ClInclude Include="GoSdk\Outputs\GoOutput.h" />
+    <ClInclude Include="GoSdk\Outputs\GoOutput.x.h" />
+    <ClInclude Include="GoSdk\Outputs\GoAnalog.h" />
+    <ClInclude Include="GoSdk\Outputs\GoAnalog.x.h" />
+    <ClInclude Include="GoSdk\Outputs\GoDigital.h" />
+    <ClInclude Include="GoSdk\Outputs\GoDigital.x.h" />
+    <ClInclude Include="GoSdk\Outputs\GoEthernet.h" />
+    <ClInclude Include="GoSdk\Outputs\GoEthernet.x.h" />
+    <ClInclude Include="GoSdk\Outputs\GoSerial.h" />
+    <ClInclude Include="GoSdk\Outputs\GoSerial.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoMeasurement.h" />
+    <ClInclude Include="GoSdk\Tools\GoMeasurement.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoMeasurements.h" />
+    <ClInclude Include="GoSdk\Tools\GoMeasurements.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoTool.h" />
+    <ClInclude Include="GoSdk\Tools\GoTool.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoExtParam.h" />
+    <ClInclude Include="GoSdk\Tools\GoExtParam.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoExtTool.h" />
+    <ClInclude Include="GoSdk\Tools\GoExtTool.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoTools.h" />
+    <ClInclude Include="GoSdk\Tools\GoTools.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoProfileTools.h" />
+    <ClInclude Include="GoSdk\Tools\GoProfileTools.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoProfileToolUtils.h" />
+    <ClInclude Include="GoSdk\Tools\GoProfileToolUtils.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoRangeTools.h" />
+    <ClInclude Include="GoSdk\Tools\GoRangeTools.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoSurfaceTools.h" />
+    <ClInclude Include="GoSdk\Tools\GoSurfaceTools.x.h" />
+    <ClInclude Include="GoSdk\Tools\GoSurfaceToolUtils.h" />
+    <ClInclude Include="GoSdk\Tools\GoSurfaceToolUtils.x.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

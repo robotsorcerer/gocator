@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>kApi-2013</ProjectName>
+    <ProjectGuid>{3E520C6C-0547-51AA-BF38-349D7C6C4F93}</ProjectGuid>
+    <RootNamespace>kApi-2013</RootNamespace>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\win32d\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">kApi</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\bin\win64d\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">kApi</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">kApi</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\bin\win64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\build\$(ProjectName)-$(Configuration)-$(PlatformName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">kApi</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;K_DEBUG;K_EMIT;K_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;IPHlpAPI.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win32d\kApi.dll</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win32d\kApi.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;K_DEBUG;K_EMIT;K_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;IPHlpAPI.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win64d\kApi.dll</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win64d\kApi.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;K_EMIT;K_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;IPHlpAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win32\kApi.dll</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win32\kApi.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Platform\kApi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;K_EMIT;K_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;IPHlpAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\win64\kApi.dll</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\lib\win64\kApi.lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="kApi\kAlloc.c" />
+    <ClCompile Include="kApi\kApiDef.c" />
+    <ClCompile Include="kApi\kApiLib.c" />
+    <ClCompile Include="kApi\kAssembly.c" />
+    <ClCompile Include="kApi\kObject.c" />
+    <ClCompile Include="kApi\kType.c" />
+    <ClCompile Include="kApi\kValue.c" />
+    <ClCompile Include="kApi\Data\kArray1.c" />
+    <ClCompile Include="kApi\Data\kArray2.c" />
+    <ClCompile Include="kApi\Data\kArray3.c" />
+    <ClCompile Include="kApi\Data\kArrayList.c" />
+    <ClCompile Include="kApi\Data\kBox.c" />
+    <ClCompile Include="kApi\Data\kBytes.c" />
+    <ClCompile Include="kApi\Data\kCollection.c" />
+    <ClCompile Include="kApi\Data\kImage.c" />
+    <ClCompile Include="kApi\Data\kList.c" />
+    <ClCompile Include="kApi\Data\kMath.c" />
+    <ClCompile Include="kApi\Data\kMap.c" />
+    <ClCompile Include="kApi\Data\kString.c" />
+    <ClCompile Include="kApi\Data\kQueue.c" />
+    <ClCompile Include="kApi\Data\kXml.c" />
+    <ClCompile Include="kApi\Io\kDat5Serializer.c" />
+    <ClCompile Include="kApi\Io\kDat6Serializer.c" />
+    <ClCompile Include="kApi\Io\kDirectory.c" />
+    <ClCompile Include="kApi\Io\kFile.c" />
+    <ClCompile Include="kApi\Io\kHttpServer.c" />
+    <ClCompile Include="kApi\Io\kHttpServerChannel.c" />
+    <ClCompile Include="kApi\Io\kHttpServerRequest.c" />
+    <ClCompile Include="kApi\Io\kHttpServerResponse.c" />
+    <ClCompile Include="kApi\Io\kMemory.c" />
+    <ClCompile Include="kApi\Io\kNetwork.c" />
+    <ClCompile Include="kApi\Io\kPath.c" />
+    <ClCompile Include="kApi\Io\kSerializer.c" />
+    <ClCompile Include="kApi\Io\kStream.c" />
+    <ClCompile Include="kApi\Io\kSocket.c" />
+    <ClCompile Include="kApi\Io\kTcpClient.c" />
+    <ClCompile Include="kApi\Io\kTcpServer.c" />
+    <ClCompile Include="kApi\Io\kUdpClient.c" />
+    <ClCompile Include="kApi\Threads\kAtomic.c" />
+    <ClCompile Include="kApi\Threads\kLock.c" />
+    <ClCompile Include="kApi\Threads\kMsgQueue.c" />
+    <ClCompile Include="kApi\Threads\kPeriodic.c" />
+    <ClCompile Include="kApi\Threads\kThread.c" />
+    <ClCompile Include="kApi\Threads\kTimer.c" />
+    <ClCompile Include="kApi\Threads\kSemaphore.c" />
+    <ClCompile Include="kApi\Utils\kBackTrace.c" />
+    <ClCompile Include="kApi\Utils\kDebugAlloc.c" />
+    <ClCompile Include="kApi\Utils\kDynamicLib.c" />
+    <ClCompile Include="kApi\Utils\kEvent.c" />
+    <ClCompile Include="kApi\Utils\kObjectPool.c" />
+    <ClCompile Include="kApi\Utils\kPlugin.c" />
+    <ClCompile Include="kApi\Utils\kPoolAlloc.c" />
+    <ClCompile Include="kApi\Utils\kUserAlloc.c" />
+    <ClCompile Include="kApi\Utils\kUtils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kApi\kAlloc.h" />
+    <ClInclude Include="kApi\kAlloc.x.h" />
+    <ClInclude Include="kApi\kApi.h" />
+    <ClInclude Include="kApi\kApiCfg.h" />
+    <ClInclude Include="kApi\kApiDef.h" />
+    <ClInclude Include="kApi\kApiDef.x.h" />
+    <ClInclude Include="kApi\kApiLib.h" />
+    <ClInclude Include="kApi\kApiLib.x.h" />
+    <ClInclude Include="kApi\kApiVersion.h" />
+    <ClInclude Include="kApi\kAssembly.h" />
+    <ClInclude Include="kApi\kAssembly.x.h" />
+    <ClInclude Include="kApi\kObject.h" />
+    <ClInclude Include="kApi\kObject.x.h" />
+    <ClInclude Include="kApi\kType.h" />
+    <ClInclude Include="kApi\kType.x.h" />
+    <ClInclude Include="kApi\kValue.h" />
+    <ClInclude Include="kApi\kValue.x.h" />
+    <ClInclude Include="kApi\Data\kArray1.h" />
+    <ClInclude Include="kApi\Data\kArray1.x.h" />
+    <ClInclude Include="kApi\Data\kArray2.h" />
+    <ClInclude Include="kApi\Data\kArray2.x.h" />
+    <ClInclude Include="kApi\Data\kArray3.h" />
+    <ClInclude Include="kApi\Data\kArray3.x.h" />
+    <ClInclude Include="kApi\Data\kArrayList.h" />
+    <ClInclude Include="kApi\Data\kArrayList.x.h" />
+    <ClInclude Include="kApi\Data\kBox.h" />
+    <ClInclude Include="kApi\Data\kBox.x.h" />
+    <ClInclude Include="kApi\Data\kBytes.h" />
+    <ClInclude Include="kApi\Data\kBytes.x.h" />
+    <ClInclude Include="kApi\Data\kCollection.h" />
+    <ClInclude Include="kApi\Data\kCollection.x.h" />
+    <ClInclude Include="kApi\Data\kImage.h" />
+    <ClInclude Include="kApi\Data\kImage.x.h" />
+    <ClInclude Include="kApi\Data\kList.h" />
+    <ClInclude Include="kApi\Data\kList.x.h" />
+    <ClInclude Include="kApi\Data\kMath.h" />
+    <ClInclude Include="kApi\Data\kMath.x.h" />
+    <ClInclude Include="kApi\Data\kMap.h" />
+    <ClInclude Include="kApi\Data\kMap.x.h" />
+    <ClInclude Include="kApi\Data\kString.h" />
+    <ClInclude Include="kApi\Data\kString.x.h" />
+    <ClInclude Include="kApi\Data\kQueue.h" />
+    <ClInclude Include="kApi\Data\kQueue.x.h" />
+    <ClInclude Include="kApi\Data\kXml.h" />
+    <ClInclude Include="kApi\Data\kXml.x.h" />
+    <ClInclude Include="kApi\Io\kDat5Serializer.h" />
+    <ClInclude Include="kApi\Io\kDat5Serializer.x.h" />
+    <ClInclude Include="kApi\Io\kDat6Serializer.h" />
+    <ClInclude Include="kApi\Io\kDat6Serializer.x.h" />
+    <ClInclude Include="kApi\Io\kDirectory.h" />
+    <ClInclude Include="kApi\Io\kDirectory.x.h" />
+    <ClInclude Include="kApi\Io\kFile.h" />
+    <ClInclude Include="kApi\Io\kFile.x.h" />
+    <ClInclude Include="kApi\Io\kHttpServer.h" />
+    <ClInclude Include="kApi\Io\kHttpServer.x.h" />
+    <ClInclude Include="kApi\Io\kHttpServerChannel.h" />
+    <ClInclude Include="kApi\Io\kHttpServerChannel.x.h" />
+    <ClInclude Include="kApi\Io\kHttpServerRequest.h" />
+    <ClInclude Include="kApi\Io\kHttpServerRequest.x.h" />
+    <ClInclude Include="kApi\Io\kHttpServerResponse.h" />
+    <ClInclude Include="kApi\Io\kHttpServerResponse.x.h" />
+    <ClInclude Include="kApi\Io\kMemory.h" />
+    <ClInclude Include="kApi\Io\kMemory.x.h" />
+    <ClInclude Include="kApi\Io\kNetwork.h" />
+    <ClInclude Include="kApi\Io\kNetwork.x.h" />
+    <ClInclude Include="kApi\Io\kPath.h" />
+    <ClInclude Include="kApi\Io\kPath.x.h" />
+    <ClInclude Include="kApi\Io\kSerializer.h" />
+    <ClInclude Include="kApi\Io\kSerializer.x.h" />
+    <ClInclude Include="kApi\Io\kStream.h" />
+    <ClInclude Include="kApi\Io\kStream.x.h" />
+    <ClInclude Include="kApi\Io\kSocket.h" />
+    <ClInclude Include="kApi\Io\kSocket.x.h" />
+    <ClInclude Include="kApi\Io\kTcpClient.h" />
+    <ClInclude Include="kApi\Io\kTcpClient.x.h" />
+    <ClInclude Include="kApi\Io\kTcpServer.h" />
+    <ClInclude Include="kApi\Io\kTcpServer.x.h" />
+    <ClInclude Include="kApi\Io\kUdpClient.h" />
+    <ClInclude Include="kApi\Io\kUdpClient.x.h" />
+    <ClInclude Include="kApi\Threads\kAtomic.h" />
+    <ClInclude Include="kApi\Threads\kAtomic.x.h" />
+    <ClInclude Include="kApi\Threads\kLock.h" />
+    <ClInclude Include="kApi\Threads\kLock.x.h" />
+    <ClInclude Include="kApi\Threads\kMsgQueue.h" />
+    <ClInclude Include="kApi\Threads\kMsgQueue.x.h" />
+    <ClInclude Include="kApi\Threads\kPeriodic.h" />
+    <ClInclude Include="kApi\Threads\kPeriodic.x.h" />
+    <ClInclude Include="kApi\Threads\kThread.h" />
+    <ClInclude Include="kApi\Threads\kThread.x.h" />
+    <ClInclude Include="kApi\Threads\kTimer.h" />
+    <ClInclude Include="kApi\Threads\kTimer.x.h" />
+    <ClInclude Include="kApi\Threads\kSemaphore.h" />
+    <ClInclude Include="kApi\Threads\kSemaphore.x.h" />
+    <ClInclude Include="kApi\Utils\kBackTrace.h" />
+    <ClInclude Include="kApi\Utils\kBackTrace.x.h" />
+    <ClInclude Include="kApi\Utils\kDebugAlloc.h" />
+    <ClInclude Include="kApi\Utils\kDebugAlloc.x.h" />
+    <ClInclude Include="kApi\Utils\kDynamicLib.h" />
+    <ClInclude Include="kApi\Utils\kDynamicLib.x.h" />
+    <ClInclude Include="kApi\Utils\kEvent.h" />
+    <ClInclude Include="kApi\Utils\kEvent.x.h" />
+    <ClInclude Include="kApi\Utils\kObjectPool.h" />
+    <ClInclude Include="kApi\Utils\kObjectPool.x.h" />
+    <ClInclude Include="kApi\Utils\kPlugin.h" />
+    <ClInclude Include="kApi\Utils\kPlugin.x.h" />
+    <ClInclude Include="kApi\Utils\kPoolAlloc.h" />
+    <ClInclude Include="kApi\Utils\kPoolAlloc.x.h" />
+    <ClInclude Include="kApi\Utils\kUserAlloc.h" />
+    <ClInclude Include="kApi\Utils\kUserAlloc.x.h" />
+    <ClInclude Include="kApi\Utils\kUtils.h" />
+    <ClInclude Include="kApi\Utils\kUtils.x.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

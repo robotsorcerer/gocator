@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="gocator_video" pkg="gocator_video" type="gocator_video" />
+  <node name="Epos_controller" pkg="scripts" type="Epos" />
+
+</launch>

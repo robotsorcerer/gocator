@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="Epos_manager" pkg="scripts" type="Epos" />
+  
+</launch>

@@ -1,0 +1,13 @@
+<map id="GoDataMsg" name="GoDataMsg">
+<area shape="rect" id="node5" href="$class_go_align_msg.html" title="Represents a message containing an alignment result. " alt="" coords="301,5,395,32"/>
+<area shape="rect" id="node7" href="$class_go_bounding_box_match_msg.html" title="Represents a message containing bounding box based part matching results. " alt="" coords="259,56,437,83"/>
+<area shape="rect" id="node9" href="$class_go_edge_match_msg.html" title="Represents a message containing edge based part matching results. " alt="" coords="283,107,413,133"/>
+<area shape="rect" id="node11" href="$class_go_ellipse_match_msg.html" title="Represents a message containing ellipse based part matching results. " alt="" coords="279,157,417,184"/>
+<area shape="rect" id="node13" href="$class_go_exposure_cal_msg.html" title="Represents a message containing exposure calibration results. " alt="" coords="279,208,417,235"/>
+<area shape="rect" id="node15" href="$class_go_measurement_msg.html" title="Represents a message containing a set of GoMeasurementData. " alt="" coords="277,259,419,285"/>
+<area shape="rect" id="node17" href="$class_go_stamp_msg.html" title="Represents a message containing a set of acquisition stamps. " alt="" coords="297,309,399,336"/>
+<area shape="rect" id="node19" href="$class_go_surface_intensity_msg.html" title="Represents a data message containing a surface intensity array. " alt="" coords="269,360,427,387"/>
+<area shape="rect" id="node21" href="$class_go_surface_msg.html" title="Represents a data message containing a surface array. " alt="" coords="294,411,402,437"/>
+<area shape="rect" id="node23" href="$class_go_video_msg.html" title="Represents a data message containing a video image. " alt="" coords="299,461,397,488"/>
+<area shape="rect" id="node2" href="C:/BuildDir/Gocator_4.3/Workdir/build/kApiDoc/tags.xml$classk_object.html" title="kObject" alt="" coords="5,233,72,260"/>
+</map>

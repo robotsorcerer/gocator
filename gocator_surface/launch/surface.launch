@@ -1,0 +1,12 @@
+<launch>
+	
+	<arg name="output" default="screen" />
+	<arg name="mode" default="async" />
+
+  	<node name="gocator_surface" pkg="gocator_surface" type="gocator_surface" output="$(arg output)">
+  		<param name="mode" value="$(arg mode)"/>
+  	</node>
+
+  	<node name="Epos_controller" pkg="scripts" type="Epos" output="$(arg output)">
+  	</node>
+</launch>

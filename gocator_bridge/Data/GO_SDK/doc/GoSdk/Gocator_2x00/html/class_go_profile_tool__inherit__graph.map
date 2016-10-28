@@ -1,0 +1,15 @@
+<map id="GoProfileTool" name="GoProfileTool">
+<area shape="rect" id="node7" href="$class_go_profile_area.html" title="Represents a profile area tool. " alt="" coords="401,5,503,32"/>
+<area shape="rect" id="node9" href="$class_go_profile_box.html" title="Represents a profile bounding box tool. " alt="" coords="403,56,501,83"/>
+<area shape="rect" id="node11" href="$class_go_profile_bridge_value.html" title="Represents a profile bridge value tool. " alt="" coords="379,107,525,133"/>
+<area shape="rect" id="node13" href="$class_go_profile_circle.html" title="Represents a profile circle tool. " alt="" coords="398,157,506,184"/>
+<area shape="rect" id="node15" href="$class_go_profile_dim.html" title="Represents a profile dimension tool. " alt="" coords="403,208,501,235"/>
+<area shape="rect" id="node17" href="$class_go_profile_groove.html" title="Represents a profile groove tool. " alt="" coords="395,259,509,285"/>
+<area shape="rect" id="node19" href="$class_go_profile_intersect.html" title="Represents a profile intersect tool. " alt="" coords="389,309,515,336"/>
+<area shape="rect" id="node21" href="$class_go_profile_line.html" title="Represents a profile line tool. " alt="" coords="403,360,501,387"/>
+<area shape="rect" id="node23" href="$class_go_profile_panel.html" title="Represents a profile panel tool. " alt="" coords="398,411,506,437"/>
+<area shape="rect" id="node25" href="$class_go_profile_position.html" title="Represents a profile position tool. " alt="" coords="391,461,513,488"/>
+<area shape="rect" id="node27" href="$class_go_profile_strip.html" title="Represents a profile strip tool. " alt="" coords="401,512,503,539"/>
+<area shape="rect" id="node2" href="$class_go_tool.html" title="Represents the base tool class. " alt="" coords="121,259,183,285"/>
+<area shape="rect" id="node4" href="C:/BuildDir/Gocator_4.3/Workdir/build/kApiDoc/tags.xml$classk_object.html" title="kObject" alt="" coords="5,259,72,285"/>
+</map>

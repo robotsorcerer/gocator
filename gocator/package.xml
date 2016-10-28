@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>gocator</name>
+  <version>0.0.0</version>
+  <description>The gocator meta package</description>
+  <maintainer email="ogunmolu@amazon.com">lex</maintainer>
+  <license>Amazon Robotics Licence</license>
+
+  <url type="website">http://lakehanne.github.io</url> 
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gocator_bridge</run_depend>
+  <run_depend>gocator_profile</run_depend>
+  <run_depend>gocator_measure</run_depend>
+  <run_depend>gocator_range</run_depend>
+  <run_depend>setupMeasurement</run_depend>
+  <run_depend>gocator_video</run_depend>
+  <run_depend>gocator_surface</run_depend>
+  <run_depend>scripts</run_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+</package>

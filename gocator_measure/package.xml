@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>gocator_measure</name>
+  <version>0.0.0</version>
+  <description>The gocator_measure package</description>
+    <maintainer email="ogunmolu@amazon.com">ogunmolu</maintainer>
+    <license>MIT</license>
+    <url type="website">http://ecs.utdallas.edu/~olalekan.ogunmolu</url> 
+    <author email="ogunmolu@amazon.com">Olalekan Ogunmolu</author>
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>cmake_modules</build_depend>
+    <build_depend>cv_bridge</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>rostime</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>gocator_bridge</build_depend>
+    <run_depend>cmake_modules</run_depend>
+    <run_depend>cv_bridge</run_depend>
+    <run_depend>geometry_msgs</run_depend>
+    <run_depend>roscpp</run_depend>
+    <run_depend>rostime</run_depend>
+    <run_depend>sensor_msgs</run_depend>
+    <run_depend>std_msgs</run_depend>
+    <run_depend>gocator_bridge</run_depend>
+    <export>
+    </export>
+  </package>

@@ -1,0 +1,16 @@
+<launch>
+
+  <arg name="output" default="screen" />
+  <arg name="mode" default="async" />
+
+  <node name="profile" pkg="gocator_profile" type="gocator_profile" output="$(arg output)">
+  	<param name="mode" value="$(arg mode)"/>
+  </node>
+
+  <!-- <node name="profile_NCB" pkg="gocator_profile" type="gocator_profileNCB" output="$(arg output)">
+  <param name="mode" value="$(arg mode)"/>
+  </node> -->
+  
+  <node name="Epos_controller" pkg="scripts" type="Epos" output="$(arg output)"></node>
+
+</launch>

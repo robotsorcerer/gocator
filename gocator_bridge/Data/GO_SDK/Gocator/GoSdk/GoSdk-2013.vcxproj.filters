@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GoSdk">
+      <UniqueIdentifier>{29fd030b-5098-5a0a-81b9-2a296e556556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSdkLib">
+      <UniqueIdentifier>{5ecb7a47-65c8-5a17-a0ad-f28904f74363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSdkDef">
+      <UniqueIdentifier>{9a9d31f9-8f01-5de4-9ebe-120a1f111f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoLayout">
+      <UniqueIdentifier>{b05365f9-ceea-5682-8f4a-a241ac203faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoMaterial">
+      <UniqueIdentifier>{18d86bbf-a60c-5cc8-8c17-7b70906a2d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoMultiplexBank">
+      <UniqueIdentifier>{d1eecd1d-a14d-5675-9fa2-342657e8d40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoPartDetection">
+      <UniqueIdentifier>{57d63ff8-ec13-5e71-9810-8053e3def0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoPartMatching">
+      <UniqueIdentifier>{9c7d33c3-675e-5c7b-a237-8dec205f0a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoPartModel">
+      <UniqueIdentifier>{31a0131d-5e08-5236-b620-191e4dd7a79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoProfileGeneration">
+      <UniqueIdentifier>{97e304a4-5cba-5c8a-80ef-c41eeb711c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSensor">
+      <UniqueIdentifier>{ed9fddc2-fc84-50d0-8df6-737e01a6d14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSensorInfo">
+      <UniqueIdentifier>{bb2d41c5-2141-5e8e-8c72-2c6270610bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSetup">
+      <UniqueIdentifier>{1ba00b3d-4372-55b7-a837-e9138e212b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSurfaceGeneration">
+      <UniqueIdentifier>{a6c5ca08-8691-5412-a128-91be624ad7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoSystem">
+      <UniqueIdentifier>{b059d533-ee57-5748-82d6-3298f95bb8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoTransform">
+      <UniqueIdentifier>{7b078517-025d-5f8d-93e4-c172ea6d2a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoUtils">
+      <UniqueIdentifier>{f0920efd-485d-5feb-9ae5-09c225e0182a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{31079e72-d8e6-5b06-a982-0d31f583c6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\GoControl">
+      <UniqueIdentifier>{dcace250-5c97-5c08-be4e-71600b7e5aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\GoDiscovery">
+      <UniqueIdentifier>{80118453-ac35-5dd7-b499-b3ce91fbfc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\GoReceiver">
+      <UniqueIdentifier>{74033f6f-d3e4-5a7c-8af7-0bb896a625de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\GoSerializer">
+      <UniqueIdentifier>{e1fc72a3-5054-5c6b-9f2e-1e3728f86537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{2c57e46c-6830-541e-bb25-b5c9cd3c4e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\GoDataSet">
+      <UniqueIdentifier>{f3611a6b-5f7c-5e72-95ae-689a17938cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\GoDataTypes">
+      <UniqueIdentifier>{9aa5ef96-3591-5f79-acc4-a6df77ec6cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\GoDiscoveryExtInfo">
+      <UniqueIdentifier>{987f7901-0230-5202-b797-7d2bd2476c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\GoHealth">
+      <UniqueIdentifier>{e4c533fa-14d0-542e-86d2-03ef02ba5410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outputs">
+      <UniqueIdentifier>{005b982d-ab3c-5001-8423-6a2f45d769c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outputs\GoOutput">
+      <UniqueIdentifier>{a3d4091b-3711-52b7-a8c8-aba609ee316d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outputs\GoAnalog">
+      <UniqueIdentifier>{187e54a7-61dd-532e-b674-1cf446aede3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outputs\GoDigital">
+      <UniqueIdentifier>{91aba3b3-a945-5270-8135-6ae927f62548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outputs\GoEthernet">
+      <UniqueIdentifier>{3c5eb1ce-e155-5d3c-bbf0-c9e9dba845d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outputs\GoSerial">
+      <UniqueIdentifier>{824f8ba3-096b-5496-8921-3819ab2fed70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{1b9088fd-316c-5060-9462-dea904fa4c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoMeasurement">
+      <UniqueIdentifier>{10e4f986-2e32-594b-910a-30576696bc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoMeasurements">
+      <UniqueIdentifier>{2acadad9-c270-5653-bb10-6336068fdf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoTool">
+      <UniqueIdentifier>{2a4ac3a7-dfd2-59cb-ba83-8022690088ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoExtParam">
+      <UniqueIdentifier>{e696b609-967d-506c-a6a6-8e3fc8d16ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoExtTool">
+      <UniqueIdentifier>{a0e1cb27-5b90-569b-9899-237f63d4f0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoTools">
+      <UniqueIdentifier>{799d583b-2c85-5f49-9b16-3f25a3285262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoProfileTools">
+      <UniqueIdentifier>{cd263eef-0f45-56ab-80a9-e4e4d75266b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoRangeTools">
+      <UniqueIdentifier>{f965830b-05ef-5d69-b137-2fdc609c8356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GoSurfaceTools">
+      <UniqueIdentifier>{4b9b1c16-8115-530d-beab-406c6a6f0a65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ClInclude Include="GoSdk\GoSdk.h">
+      <Filter>GoSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSdkLib.h">
+      <Filter>GoSdkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSdkLib.x.h">
+      <Filter>GoSdkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSdkDef.h">
+      <Filter>GoSdkDef</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSdkDef.x.h">
+      <Filter>GoSdkDef</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoLayout.h">
+      <Filter>GoLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoLayout.x.h">
+      <Filter>GoLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoMaterial.h">
+      <Filter>GoMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoMaterial.x.h">
+      <Filter>GoMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoMultiplexBank.h">
+      <Filter>GoMultiplexBank</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoMultiplexBank.x.h">
+      <Filter>GoMultiplexBank</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoPartDetection.h">
+      <Filter>GoPartDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoPartDetection.x.h">
+      <Filter>GoPartDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoPartMatching.h">
+      <Filter>GoPartMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoPartMatching.x.h">
+      <Filter>GoPartMatching</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoPartModel.h">
+      <Filter>GoPartModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoPartModel.x.h">
+      <Filter>GoPartModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoProfileGeneration.h">
+      <Filter>GoProfileGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoProfileGeneration.x.h">
+      <Filter>GoProfileGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSensor.h">
+      <Filter>GoSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSensor.x.h">
+      <Filter>GoSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSensorInfo.h">
+      <Filter>GoSensorInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSensorInfo.x.h">
+      <Filter>GoSensorInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSetup.h">
+      <Filter>GoSetup</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSetup.x.h">
+      <Filter>GoSetup</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSurfaceGeneration.h">
+      <Filter>GoSurfaceGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSurfaceGeneration.x.h">
+      <Filter>GoSurfaceGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSystem.h">
+      <Filter>GoSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoSystem.x.h">
+      <Filter>GoSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoTransform.h">
+      <Filter>GoTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoTransform.x.h">
+      <Filter>GoTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoUtils.h">
+      <Filter>GoUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\GoUtils.x.h">
+      <Filter>GoUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoControl.h">
+      <Filter>Internal\GoControl</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoControl.x.h">
+      <Filter>Internal\GoControl</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoDiscovery.h">
+      <Filter>Internal\GoDiscovery</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoDiscovery.x.h">
+      <Filter>Internal\GoDiscovery</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoReceiver.h">
+      <Filter>Internal\GoReceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoReceiver.x.h">
+      <Filter>Internal\GoReceiver</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoSerializer.h">
+      <Filter>Internal\GoSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Internal\GoSerializer.x.h">
+      <Filter>Internal\GoSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoDataSet.h">
+      <Filter>Messages\GoDataSet</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoDataSet.x.h">
+      <Filter>Messages\GoDataSet</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoDataTypes.h">
+      <Filter>Messages\GoDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoDataTypes.x.h">
+      <Filter>Messages\GoDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoDiscoveryExtInfo.h">
+      <Filter>Messages\GoDiscoveryExtInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoDiscoveryExtInfo.x.h">
+      <Filter>Messages\GoDiscoveryExtInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoHealth.h">
+      <Filter>Messages\GoHealth</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Messages\GoHealth.x.h">
+      <Filter>Messages\GoHealth</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoOutput.h">
+      <Filter>Outputs\GoOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoOutput.x.h">
+      <Filter>Outputs\GoOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoAnalog.h">
+      <Filter>Outputs\GoAnalog</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoAnalog.x.h">
+      <Filter>Outputs\GoAnalog</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoDigital.h">
+      <Filter>Outputs\GoDigital</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoDigital.x.h">
+      <Filter>Outputs\GoDigital</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoEthernet.h">
+      <Filter>Outputs\GoEthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoEthernet.x.h">
+      <Filter>Outputs\GoEthernet</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoSerial.h">
+      <Filter>Outputs\GoSerial</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Outputs\GoSerial.x.h">
+      <Filter>Outputs\GoSerial</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoMeasurement.h">
+      <Filter>Tools\GoMeasurement</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoMeasurement.x.h">
+      <Filter>Tools\GoMeasurement</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoMeasurements.h">
+      <Filter>Tools\GoMeasurements</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoMeasurements.x.h">
+      <Filter>Tools\GoMeasurements</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoTool.h">
+      <Filter>Tools\GoTool</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoTool.x.h">
+      <Filter>Tools\GoTool</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoExtParam.h">
+      <Filter>Tools\GoExtParam</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoExtParam.x.h">
+      <Filter>Tools\GoExtParam</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoExtTool.h">
+      <Filter>Tools\GoExtTool</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoExtTool.x.h">
+      <Filter>Tools\GoExtTool</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoTools.h">
+      <Filter>Tools\GoTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoTools.x.h">
+      <Filter>Tools\GoTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoProfileTools.h">
+      <Filter>Tools\GoProfileTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoProfileTools.x.h">
+      <Filter>Tools\GoProfileTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoProfileToolUtils.h">
+      <Filter>Tools\GoProfileTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoProfileToolUtils.x.h">
+      <Filter>Tools\GoProfileTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoRangeTools.h">
+      <Filter>Tools\GoRangeTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoRangeTools.x.h">
+      <Filter>Tools\GoRangeTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoSurfaceTools.h">
+      <Filter>Tools\GoSurfaceTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoSurfaceTools.x.h">
+      <Filter>Tools\GoSurfaceTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoSurfaceToolUtils.h">
+      <Filter>Tools\GoSurfaceTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GoSdk\Tools\GoSurfaceToolUtils.x.h">
+      <Filter>Tools\GoSurfaceTools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GoSdk\GoSdkLib.c">
+      <Filter>GoSdkLib</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoSdkDef.c">
+      <Filter>GoSdkDef</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoLayout.c">
+      <Filter>GoLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoMaterial.c">
+      <Filter>GoMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoMultiplexBank.c">
+      <Filter>GoMultiplexBank</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoPartDetection.c">
+      <Filter>GoPartDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoPartMatching.c">
+      <Filter>GoPartMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoPartModel.c">
+      <Filter>GoPartModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoProfileGeneration.c">
+      <Filter>GoProfileGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoSensor.c">
+      <Filter>GoSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoSensorInfo.c">
+      <Filter>GoSensorInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoSetup.c">
+      <Filter>GoSetup</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoSurfaceGeneration.c">
+      <Filter>GoSurfaceGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoSystem.c">
+      <Filter>GoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoTransform.c">
+      <Filter>GoTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\GoUtils.c">
+      <Filter>GoUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Internal\GoControl.c">
+      <Filter>Internal\GoControl</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Internal\GoDiscovery.c">
+      <Filter>Internal\GoDiscovery</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Internal\GoReceiver.c">
+      <Filter>Internal\GoReceiver</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Internal\GoSerializer.c">
+      <Filter>Internal\GoSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Messages\GoDataSet.c">
+      <Filter>Messages\GoDataSet</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Messages\GoDataTypes.c">
+      <Filter>Messages\GoDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Messages\GoDiscoveryExtInfo.c">
+      <Filter>Messages\GoDiscoveryExtInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Messages\GoHealth.c">
+      <Filter>Messages\GoHealth</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Outputs\GoOutput.c">
+      <Filter>Outputs\GoOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Outputs\GoAnalog.c">
+      <Filter>Outputs\GoAnalog</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Outputs\GoDigital.c">
+      <Filter>Outputs\GoDigital</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Outputs\GoEthernet.c">
+      <Filter>Outputs\GoEthernet</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Outputs\GoSerial.c">
+      <Filter>Outputs\GoSerial</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoMeasurement.c">
+      <Filter>Tools\GoMeasurement</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoMeasurements.c">
+      <Filter>Tools\GoMeasurements</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoTool.c">
+      <Filter>Tools\GoTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoExtParam.c">
+      <Filter>Tools\GoExtParam</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoExtTool.c">
+      <Filter>Tools\GoExtTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoTools.c">
+      <Filter>Tools\GoTools</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoProfileTools.c">
+      <Filter>Tools\GoProfileTools</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoProfileToolUtils.c">
+      <Filter>Tools\GoProfileTools</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoRangeTools.c">
+      <Filter>Tools\GoRangeTools</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoSurfaceTools.c">
+      <Filter>Tools\GoSurfaceTools</Filter>
+    </ClCompile>
+    <ClCompile Include="GoSdk\Tools\GoSurfaceToolUtils.c">
+      <Filter>Tools\GoSurfaceTools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

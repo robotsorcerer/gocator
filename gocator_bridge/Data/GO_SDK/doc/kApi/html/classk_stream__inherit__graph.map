@@ -1,0 +1,7 @@
+<map id="kStream" name="kStream">
+<area shape="rect" id="node5" href="$classk_file.html" title="Represents a file stream. " alt="" coords="5,155,56,181"/>
+<area shape="rect" id="node7" href="$classk_memory.html" title="Represents an in&#45;memory stream. " alt="" coords="81,155,156,181"/>
+<area shape="rect" id="node9" href="$classk_tcp_client.html" title="Represents a TCP client. " alt="" coords="181,155,264,181"/>
+<area shape="rect" id="node11" href="$classk_udp_client.html" title="Represents a UDP client. " alt="" coords="288,155,373,181"/>
+<area shape="rect" id="node2" href="$classk_object.html" title="Root of all Zen classes. " alt="" coords="137,5,204,32"/>
+</map>

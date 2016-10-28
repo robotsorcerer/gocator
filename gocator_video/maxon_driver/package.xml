@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>maxon_driver</name>
+  <version>0.0.0</version>
+  <description>A catkin package that provides the libraries for the maxon drivers</description>
+
+  <author email="efitting@amazon.com">Eric Fitting</author>
+  <maintainer email="efitting@amazon.com">Eric Fitting</maintainer>
+  
+  <license>Proprietary - Amazon Robotics</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>

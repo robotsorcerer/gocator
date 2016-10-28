@@ -1,0 +1,14 @@
+<map id="GoTool" name="GoTool">
+<area shape="rect" id="node5" href="$class_go_script.html" title="Represents a script tool. " alt="" coords="249,157,322,184"/>
+<area shape="rect" id="node7" href="$class_go_surface_tool.html" title="Represents a base surface tool. " alt="" coords="232,208,339,235"/>
+<area shape="rect" id="node2" href="C:/BuildDir/Gocator_4.3/Workdir/build/kApiDoc/tags.xml$classk_object.html" title="kObject" alt="" coords="5,183,72,209"/>
+<area shape="rect" id="node9" href="$class_go_surface_box.html" title="Represents a surface bounding box tool. " alt="" coords="425,5,532,32"/>
+<area shape="rect" id="node11" href="$class_go_surface_countersunk_hole.html" title="Represents a Surface Counter Sunk Hole tool. " alt="" coords="387,56,570,83"/>
+<area shape="rect" id="node13" href="$class_go_surface_ellipse.html" title="Represents a surface ellipse tool. " alt="" coords="417,107,540,133"/>
+<area shape="rect" id="node15" href="$class_go_surface_hole.html" title="Represents a surface hole tool. " alt="" coords="424,157,533,184"/>
+<area shape="rect" id="node17" href="$class_go_surface_opening.html" title="Represents a surface opening tool. " alt="" coords="413,208,544,235"/>
+<area shape="rect" id="node19" href="$class_go_surface_plane.html" title="Represents a surface plane tool. " alt="" coords="421,259,537,285"/>
+<area shape="rect" id="node21" href="$class_go_surface_position.html" title="Represents a surface position tool. " alt="" coords="413,309,544,336"/>
+<area shape="rect" id="node23" href="$class_go_surface_stud.html" title="Represents a surface stud tool. " alt="" coords="423,360,534,387"/>
+<area shape="rect" id="node25" href="$class_go_surface_volume.html" title="Represents a surface volume tool. " alt="" coords="415,411,542,437"/>
+</map>

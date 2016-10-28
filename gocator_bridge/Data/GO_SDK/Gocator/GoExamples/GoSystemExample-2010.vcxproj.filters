@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GoSystemExample">
+      <UniqueIdentifier>{af027cc9-2444-54a3-b626-d19c24b27d8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ClCompile Include="GoSystemExample\GoSystemExample.c">
+      <Filter>GoSystemExample</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

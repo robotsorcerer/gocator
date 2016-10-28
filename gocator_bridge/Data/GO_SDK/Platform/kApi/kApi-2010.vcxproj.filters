@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kApi">
+      <UniqueIdentifier>{4a5b145f-9789-501f-b34d-82b94576ce44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kAlloc">
+      <UniqueIdentifier>{85c449ee-a5e9-528f-bc7d-b17732cacfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kApi">
+      <UniqueIdentifier>{5e8743a9-938e-588b-a649-333f113afd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kApiCfg">
+      <UniqueIdentifier>{f1a982b0-66dd-5ed2-865c-688fee440b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kApiDef">
+      <UniqueIdentifier>{0f5a355f-ad0b-5673-9660-c73a324e9092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kApiLib">
+      <UniqueIdentifier>{b9ea9475-60c1-5832-b786-235aa7a16e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kApiVersion">
+      <UniqueIdentifier>{52d633fa-e258-5f28-8e1e-07087f4aa19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kAssembly">
+      <UniqueIdentifier>{5d0a654f-5002-500a-b250-c2f6e96940e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kObject">
+      <UniqueIdentifier>{619872be-4f90-5c7c-bf49-88574bbd349f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kType">
+      <UniqueIdentifier>{6995961a-5589-5bf6-9029-ccca6c7d775e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi\kValue">
+      <UniqueIdentifier>{1bfa015c-f442-5247-b319-dd9da71ac645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data">
+      <UniqueIdentifier>{03fd9a7f-bfee-55b8-b388-b9ce1f786c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kArray1">
+      <UniqueIdentifier>{69e093cd-d7fd-52b6-88a4-85404bb459a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kArray2">
+      <UniqueIdentifier>{d9593e9d-7e5e-5d68-8729-49ebc7923a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kArray3">
+      <UniqueIdentifier>{8008c3f9-0f03-5d7b-ab65-60eead29f8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kArrayList">
+      <UniqueIdentifier>{07f86a31-92e7-56df-8caf-fbe38867b25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kBox">
+      <UniqueIdentifier>{9267b369-fe00-5848-a488-86c1f4e60d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kBytes">
+      <UniqueIdentifier>{5076ad58-c661-5fa9-94d1-71bff48e9e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kCollection">
+      <UniqueIdentifier>{15fba62a-8ef4-5890-a28c-687e4a6c9970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kImage">
+      <UniqueIdentifier>{d7cc743c-0364-5d2b-93fe-751d8d270d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kList">
+      <UniqueIdentifier>{6b09a9c3-a40e-5deb-8630-5435b6f08e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kMath">
+      <UniqueIdentifier>{9b327144-780f-501c-a21a-f7cd52ede3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kMap">
+      <UniqueIdentifier>{bef92ce1-36aa-578c-b81d-d147ce57b006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kString">
+      <UniqueIdentifier>{36512e8a-5537-5848-865f-53d288e9e291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kQueue">
+      <UniqueIdentifier>{ca99d59d-1492-5c86-ad7e-17de42ca7e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Data\kXml">
+      <UniqueIdentifier>{6f382e41-82e4-5a87-9877-8b525400ca70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io">
+      <UniqueIdentifier>{59c2b5b4-7a28-5b33-a2a1-f9cfb5bd6a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kDat5Serializer">
+      <UniqueIdentifier>{becf55b4-f678-5ff6-afba-ef6608b6f6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kDat6Serializer">
+      <UniqueIdentifier>{1e7e0513-9745-52d7-b2a4-cb2c1736bca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kDirectory">
+      <UniqueIdentifier>{46df5808-b32f-5c49-92ce-3fbfac7b4118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kFile">
+      <UniqueIdentifier>{fb68b2f3-b4a4-531b-8b2f-3e5302bb5378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kHttpServer">
+      <UniqueIdentifier>{4adcd66c-960e-541c-84c5-9e2124bb272d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kHttpServerChannel">
+      <UniqueIdentifier>{e6583ffc-c084-55be-84bc-a4187df80ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kHttpServerRequest">
+      <UniqueIdentifier>{ab46ef7f-7ba3-5352-8344-6c2c94c22fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kHttpServerResponse">
+      <UniqueIdentifier>{440eae15-2156-51a7-b641-462e9ee0a3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kMemory">
+      <UniqueIdentifier>{935cc506-a332-532b-b035-6c904ece4900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kNetwork">
+      <UniqueIdentifier>{642f0b5e-4996-5a46-b472-4142db460fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kPath">
+      <UniqueIdentifier>{5102c210-4785-543d-86fb-ce929e72db6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kSerializer">
+      <UniqueIdentifier>{dfab35d5-5b34-5f0c-b2ed-b5060a0c47cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kStream">
+      <UniqueIdentifier>{f97fd50b-5a5c-50b4-a035-124b366d71fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kSocket">
+      <UniqueIdentifier>{1e215e2e-6806-5e9b-be58-0052d4e89e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kTcpClient">
+      <UniqueIdentifier>{cab85d8a-bf07-5b33-8e66-2decf746c86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kTcpServer">
+      <UniqueIdentifier>{aaf18845-065e-5bce-9fe2-f52941ad4277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Io\kUdpClient">
+      <UniqueIdentifier>{2844c827-7493-55fa-87df-c3e08a9ac46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads">
+      <UniqueIdentifier>{ca3d4e36-fdf6-5f5f-846f-183b659858d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kAtomic">
+      <UniqueIdentifier>{2a2868a8-548e-59b3-b5fe-41b8c7978c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kLock">
+      <UniqueIdentifier>{d9477042-6020-5223-bbf4-671fe58ef452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kMsgQueue">
+      <UniqueIdentifier>{f8e23c27-86ce-52b2-9e61-4b5a440707f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kPeriodic">
+      <UniqueIdentifier>{70cc69c9-2cea-51ba-9f0d-28ac9e34db7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kThread">
+      <UniqueIdentifier>{1c14126d-7245-5362-8a52-2374d2755408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kTimer">
+      <UniqueIdentifier>{bfffccd6-1dee-557a-aee7-f4f45c82f9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Threads\kSemaphore">
+      <UniqueIdentifier>{b381ce64-d3f4-5ddb-8723-adcfec640c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils">
+      <UniqueIdentifier>{8aecda4d-73eb-5aab-b4ac-2b1f3e6711c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kBackTrace">
+      <UniqueIdentifier>{42606d11-0f62-59aa-9b92-94014986b635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kDebugAlloc">
+      <UniqueIdentifier>{a9b1bc38-69c2-522b-94ec-6a599b9f44ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kDynamicLib">
+      <UniqueIdentifier>{8f327c42-4f63-5378-a0d2-38b8f5b02ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kEvent">
+      <UniqueIdentifier>{b18e4d29-d841-5b2d-b8e3-1c7eb6fc7aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kObjectPool">
+      <UniqueIdentifier>{efc9fbd9-dc59-564f-a979-72714620c358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kPlugin">
+      <UniqueIdentifier>{68e09c62-28bf-58b5-a243-2535b439fd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kPoolAlloc">
+      <UniqueIdentifier>{b0641f91-8677-506b-be99-f61c0a3b5a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kUserAlloc">
+      <UniqueIdentifier>{f55df781-f654-5fc0-82fe-62c694c638e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kApi.Utils\kUtils">
+      <UniqueIdentifier>{3594814b-5228-5095-9886-a6bb4ffccd35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ClInclude Include="kApi\kAlloc.h">
+      <Filter>kApi\kAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kAlloc.x.h">
+      <Filter>kApi\kAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApi.h">
+      <Filter>kApi\kApi</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApiCfg.h">
+      <Filter>kApi\kApiCfg</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApiDef.h">
+      <Filter>kApi\kApiDef</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApiDef.x.h">
+      <Filter>kApi\kApiDef</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApiLib.h">
+      <Filter>kApi\kApiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApiLib.x.h">
+      <Filter>kApi\kApiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kApiVersion.h">
+      <Filter>kApi\kApiVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kAssembly.h">
+      <Filter>kApi\kAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kAssembly.x.h">
+      <Filter>kApi\kAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kObject.h">
+      <Filter>kApi\kObject</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kObject.x.h">
+      <Filter>kApi\kObject</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kType.h">
+      <Filter>kApi\kType</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kType.x.h">
+      <Filter>kApi\kType</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kValue.h">
+      <Filter>kApi\kValue</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\kValue.x.h">
+      <Filter>kApi\kValue</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArray1.h">
+      <Filter>kApi.Data\kArray1</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArray1.x.h">
+      <Filter>kApi.Data\kArray1</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArray2.h">
+      <Filter>kApi.Data\kArray2</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArray2.x.h">
+      <Filter>kApi.Data\kArray2</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArray3.h">
+      <Filter>kApi.Data\kArray3</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArray3.x.h">
+      <Filter>kApi.Data\kArray3</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArrayList.h">
+      <Filter>kApi.Data\kArrayList</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kArrayList.x.h">
+      <Filter>kApi.Data\kArrayList</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kBox.h">
+      <Filter>kApi.Data\kBox</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kBox.x.h">
+      <Filter>kApi.Data\kBox</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kBytes.h">
+      <Filter>kApi.Data\kBytes</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kBytes.x.h">
+      <Filter>kApi.Data\kBytes</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kCollection.h">
+      <Filter>kApi.Data\kCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kCollection.x.h">
+      <Filter>kApi.Data\kCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kImage.h">
+      <Filter>kApi.Data\kImage</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kImage.x.h">
+      <Filter>kApi.Data\kImage</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kList.h">
+      <Filter>kApi.Data\kList</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kList.x.h">
+      <Filter>kApi.Data\kList</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kMath.h">
+      <Filter>kApi.Data\kMath</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kMath.x.h">
+      <Filter>kApi.Data\kMath</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kMap.h">
+      <Filter>kApi.Data\kMap</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kMap.x.h">
+      <Filter>kApi.Data\kMap</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kString.h">
+      <Filter>kApi.Data\kString</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kString.x.h">
+      <Filter>kApi.Data\kString</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kQueue.h">
+      <Filter>kApi.Data\kQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kQueue.x.h">
+      <Filter>kApi.Data\kQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kXml.h">
+      <Filter>kApi.Data\kXml</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Data\kXml.x.h">
+      <Filter>kApi.Data\kXml</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kDat5Serializer.h">
+      <Filter>kApi.Io\kDat5Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kDat5Serializer.x.h">
+      <Filter>kApi.Io\kDat5Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kDat6Serializer.h">
+      <Filter>kApi.Io\kDat6Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kDat6Serializer.x.h">
+      <Filter>kApi.Io\kDat6Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kDirectory.h">
+      <Filter>kApi.Io\kDirectory</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kDirectory.x.h">
+      <Filter>kApi.Io\kDirectory</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kFile.h">
+      <Filter>kApi.Io\kFile</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kFile.x.h">
+      <Filter>kApi.Io\kFile</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServer.h">
+      <Filter>kApi.Io\kHttpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServer.x.h">
+      <Filter>kApi.Io\kHttpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServerChannel.h">
+      <Filter>kApi.Io\kHttpServerChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServerChannel.x.h">
+      <Filter>kApi.Io\kHttpServerChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServerRequest.h">
+      <Filter>kApi.Io\kHttpServerRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServerRequest.x.h">
+      <Filter>kApi.Io\kHttpServerRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServerResponse.h">
+      <Filter>kApi.Io\kHttpServerResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kHttpServerResponse.x.h">
+      <Filter>kApi.Io\kHttpServerResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kMemory.h">
+      <Filter>kApi.Io\kMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kMemory.x.h">
+      <Filter>kApi.Io\kMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kNetwork.h">
+      <Filter>kApi.Io\kNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kNetwork.x.h">
+      <Filter>kApi.Io\kNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kPath.h">
+      <Filter>kApi.Io\kPath</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kPath.x.h">
+      <Filter>kApi.Io\kPath</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kSerializer.h">
+      <Filter>kApi.Io\kSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kSerializer.x.h">
+      <Filter>kApi.Io\kSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kStream.h">
+      <Filter>kApi.Io\kStream</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kStream.x.h">
+      <Filter>kApi.Io\kStream</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kSocket.h">
+      <Filter>kApi.Io\kSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kSocket.x.h">
+      <Filter>kApi.Io\kSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kTcpClient.h">
+      <Filter>kApi.Io\kTcpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kTcpClient.x.h">
+      <Filter>kApi.Io\kTcpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kTcpServer.h">
+      <Filter>kApi.Io\kTcpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kTcpServer.x.h">
+      <Filter>kApi.Io\kTcpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kUdpClient.h">
+      <Filter>kApi.Io\kUdpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Io\kUdpClient.x.h">
+      <Filter>kApi.Io\kUdpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kAtomic.h">
+      <Filter>kApi.Threads\kAtomic</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kAtomic.x.h">
+      <Filter>kApi.Threads\kAtomic</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kLock.h">
+      <Filter>kApi.Threads\kLock</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kLock.x.h">
+      <Filter>kApi.Threads\kLock</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kMsgQueue.h">
+      <Filter>kApi.Threads\kMsgQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kMsgQueue.x.h">
+      <Filter>kApi.Threads\kMsgQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kPeriodic.h">
+      <Filter>kApi.Threads\kPeriodic</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kPeriodic.x.h">
+      <Filter>kApi.Threads\kPeriodic</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kThread.h">
+      <Filter>kApi.Threads\kThread</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kThread.x.h">
+      <Filter>kApi.Threads\kThread</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kTimer.h">
+      <Filter>kApi.Threads\kTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kTimer.x.h">
+      <Filter>kApi.Threads\kTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kSemaphore.h">
+      <Filter>kApi.Threads\kSemaphore</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Threads\kSemaphore.x.h">
+      <Filter>kApi.Threads\kSemaphore</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kBackTrace.h">
+      <Filter>kApi.Utils\kBackTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kBackTrace.x.h">
+      <Filter>kApi.Utils\kBackTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kDebugAlloc.h">
+      <Filter>kApi.Utils\kDebugAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kDebugAlloc.x.h">
+      <Filter>kApi.Utils\kDebugAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kDynamicLib.h">
+      <Filter>kApi.Utils\kDynamicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kDynamicLib.x.h">
+      <Filter>kApi.Utils\kDynamicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kEvent.h">
+      <Filter>kApi.Utils\kEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kEvent.x.h">
+      <Filter>kApi.Utils\kEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kObjectPool.h">
+      <Filter>kApi.Utils\kObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kObjectPool.x.h">
+      <Filter>kApi.Utils\kObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kPlugin.h">
+      <Filter>kApi.Utils\kPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kPlugin.x.h">
+      <Filter>kApi.Utils\kPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kPoolAlloc.h">
+      <Filter>kApi.Utils\kPoolAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kPoolAlloc.x.h">
+      <Filter>kApi.Utils\kPoolAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kUserAlloc.h">
+      <Filter>kApi.Utils\kUserAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kUserAlloc.x.h">
+      <Filter>kApi.Utils\kUserAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kUtils.h">
+      <Filter>kApi.Utils\kUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="kApi\Utils\kUtils.x.h">
+      <Filter>kApi.Utils\kUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kApi\kAlloc.c">
+      <Filter>kApi\kAlloc</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\kApiDef.c">
+      <Filter>kApi\kApiDef</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\kApiLib.c">
+      <Filter>kApi\kApiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\kAssembly.c">
+      <Filter>kApi\kAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\kObject.c">
+      <Filter>kApi\kObject</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\kType.c">
+      <Filter>kApi\kType</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\kValue.c">
+      <Filter>kApi\kValue</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kArray1.c">
+      <Filter>kApi.Data\kArray1</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kArray2.c">
+      <Filter>kApi.Data\kArray2</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kArray3.c">
+      <Filter>kApi.Data\kArray3</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kArrayList.c">
+      <Filter>kApi.Data\kArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kBox.c">
+      <Filter>kApi.Data\kBox</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kBytes.c">
+      <Filter>kApi.Data\kBytes</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kCollection.c">
+      <Filter>kApi.Data\kCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kImage.c">
+      <Filter>kApi.Data\kImage</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kList.c">
+      <Filter>kApi.Data\kList</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kMath.c">
+      <Filter>kApi.Data\kMath</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kMap.c">
+      <Filter>kApi.Data\kMap</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kString.c">
+      <Filter>kApi.Data\kString</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kQueue.c">
+      <Filter>kApi.Data\kQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Data\kXml.c">
+      <Filter>kApi.Data\kXml</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kDat5Serializer.c">
+      <Filter>kApi.Io\kDat5Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kDat6Serializer.c">
+      <Filter>kApi.Io\kDat6Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kDirectory.c">
+      <Filter>kApi.Io\kDirectory</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kFile.c">
+      <Filter>kApi.Io\kFile</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kHttpServer.c">
+      <Filter>kApi.Io\kHttpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kHttpServerChannel.c">
+      <Filter>kApi.Io\kHttpServerChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kHttpServerRequest.c">
+      <Filter>kApi.Io\kHttpServerRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kHttpServerResponse.c">
+      <Filter>kApi.Io\kHttpServerResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kMemory.c">
+      <Filter>kApi.Io\kMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kNetwork.c">
+      <Filter>kApi.Io\kNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kPath.c">
+      <Filter>kApi.Io\kPath</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kSerializer.c">
+      <Filter>kApi.Io\kSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kStream.c">
+      <Filter>kApi.Io\kStream</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kSocket.c">
+      <Filter>kApi.Io\kSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kTcpClient.c">
+      <Filter>kApi.Io\kTcpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kTcpServer.c">
+      <Filter>kApi.Io\kTcpServer</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Io\kUdpClient.c">
+      <Filter>kApi.Io\kUdpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kAtomic.c">
+      <Filter>kApi.Threads\kAtomic</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kLock.c">
+      <Filter>kApi.Threads\kLock</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kMsgQueue.c">
+      <Filter>kApi.Threads\kMsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kPeriodic.c">
+      <Filter>kApi.Threads\kPeriodic</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kThread.c">
+      <Filter>kApi.Threads\kThread</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kTimer.c">
+      <Filter>kApi.Threads\kTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Threads\kSemaphore.c">
+      <Filter>kApi.Threads\kSemaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kBackTrace.c">
+      <Filter>kApi.Utils\kBackTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kDebugAlloc.c">
+      <Filter>kApi.Utils\kDebugAlloc</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kDynamicLib.c">
+      <Filter>kApi.Utils\kDynamicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kEvent.c">
+      <Filter>kApi.Utils\kEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kObjectPool.c">
+      <Filter>kApi.Utils\kObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kPlugin.c">
+      <Filter>kApi.Utils\kPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kPoolAlloc.c">
+      <Filter>kApi.Utils\kPoolAlloc</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kUserAlloc.c">
+      <Filter>kApi.Utils\kUserAlloc</Filter>
+    </ClCompile>
+    <ClCompile Include="kApi\Utils\kUtils.c">
+      <Filter>kApi.Utils\kUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

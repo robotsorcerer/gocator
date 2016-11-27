@@ -4,8 +4,8 @@
   <version>0.0.0</version>
   <description>A catkin package that provides the libraries for the maxon drivers</description>
 
-  <author email="efitting@amazon.com">Eric Fitting</author>
-  <maintainer email="efitting@amazon.com">Eric Fitting</maintainer>
+  <author email="patlekano@gmail.com">Olalekan Ogunmolu</author>
+  <maintainer email="patlekano@gmail.com">Olalekan Ogunmolu</maintainer>
   
   <license>Proprietary - Amazon Robotics</license>
 

@@ -2,8 +2,8 @@
 ### ROS Bridge to the GoCator Line Scanner Windows SDK/Library
 ##### Drivers for retrieving the Infra-red profile and surface map data from the Gocator 2370 Line Scanner
 
-#### Author: [Olalekan Ogunmolu](http://lakehanne.github.io)
-####[Table of Contents](#table-of-contents)
+#### Author: [Lekan Molu](http://lakehanne.github.io)
+#### [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 	- [X-Resolution](#x-resolution)
 	- [Z-Resolution](#z-resolution)
@@ -81,7 +81,7 @@ In surface data, the Y-axis represents the relative position of the part in the 
 ```
 
 #### Pipeline 1: January 14, 2016 : Synchronous operation [master branch]
-This code was developed in `ROS Hydro` on the `KivaSystems`, `armsdev` jail environment. It's been tested on  Ubuntu 12.04 and Ububntu 14.04 +. You are welcome to leave comments or add a PR if you can verify it works in Jade.
+This code was developed in `ROS Hydro` on the an `armsdev` jail environment. It's been tested on  Ubuntu 12.04 and Ububntu 14.04 +. You are welcome to leave comments or add a PR if you can verify it works in Jade.
 
 To work without an encoder (in `Time` Trigger Mode), the laser strobes the camera in an infinite while loop and I push acquired point clouds to the visualizer window. Press `r` on your keyboard to zero-center the displayed point clouds. For additional help,
  click within the console where the executables are launched and press `h` for additional help with the `vtk` window.
